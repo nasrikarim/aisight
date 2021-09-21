@@ -1,6 +1,4 @@
-def hello_world(name):
-    print(f'{name}')
-
+import hello_world as hw
 
 if __name__ == '__main__':
-    hello_world('Hello world')
+    print(hw.hello_world('Hello world'))
